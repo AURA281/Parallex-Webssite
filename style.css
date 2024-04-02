@@ -1,0 +1,58 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 350px;
+    line-height: 1.8em;
+    color: #666;
+}
+.img1{
+    background-image: url(images/forest\ 1.jpg);
+    min-height: 100%;
+}
+.img2{
+    background-image: url(images/forest\ 2.jpg);
+    min-height: 400px;
+}
+.img3{
+    background-image: url(images/forest\ 3.jpg);
+    min-height: 400px;
+}
+
+.img1 ,.img2, .img3{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+    color: black;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+}
+.textBg{
+    background: #313534;
+    color: aliceblue;
+    padding: 20px;
+}
+.section{
+    padding: 50px 80px;
+    text-align: center;
+
+}
+
+.section-light{
+    background-color: #f4f4f4;
+    color: #313534;
+}
+.section-dark{
+    background-color: #313534;
+    color: #f4f4f4;
+}
